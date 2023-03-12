@@ -2,16 +2,16 @@
     box-sizing: border-box;
 }
 
-$text-color-grigio-scuro:#3D3D3C;
-$background-color-fondini:#F4ECE8;
-$arancio: #F39200;
-$grigio-chiaro: #F2F2F2;
-$bianco: #ffff;
-$hover-color: #E88C01;
-$grigio-bottoni:#646464;
-$grigio-medio:#757885;
-$grigio-chiaro-gr:#B5B7C4;
-$arancio-chiaro:#FFCDB8;
+$text-color-grigio-scuro:#50504e;
+$background-color-fondini:#e7dfdb;
+$arancio: #e08b0b;
+$grigio-chiaro: #dcd4d4;
+$bianco: rgb(222, 217, 217);
+$hover-color: #da8608;
+$grigio-bottoni:#757272;
+$grigio-medio:#6f7283;
+$grigio-chiaro-gr:#b3b6c8;
+$arancio-chiaro:#f7ccb9;
 
 .grigio-chiaro-gr{
     color:$grigio-chiaro-gr;
@@ -20,7 +20,7 @@ $arancio-chiaro:#FFCDB8;
     background-color: $grigio-chiaro;
 }
 .blue{
-    background-color: #059EB2;
+    background-color: #06b2c8;
 }
 .fondini{
     background-color: $background-color-fondini;
@@ -147,20 +147,20 @@ p{
     line-height: 140%;
 }
 .btn-primary{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(14, 14, 14, 0);
     border: 1.5px solid $text-color-grigio-scuro;
     color: $text-color-grigio-scuro;
     width: 100%;
-    --bs-btn-hover-bg: #F39200;
+    --bs-btn-hover-bg: #db8607;
     --bs-btn-hover-border-color:  #F39200;
-    --bs-btn-active-bg: #E88C01;
-    --bs-btn-active-border-color: #E88C01;
+    --bs-btn-active-bg: #f7980a;
+    --bs-btn-active-border-color: #f8990a;
 }
 
 .form-control{
     width: 90%;
     border: 1px solid $text-color-grigio-scuro;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(8, 7, 7, 0);
 }
 .form-check-label{
     font-family: 'Poppins';
@@ -172,7 +172,7 @@ p{
 .form-check-input{
     width: 1.3em;
     height: 1.3em;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(6, 5, 5, 0);
     border: 1px solid $text-color-grigio-scuro;
     background-size:cover;
 }
@@ -192,7 +192,7 @@ form{
 
 header{
     background-color: $bianco ;
-    box-shadow: 6px 7px 9px rgba(0, 0, 0, 0.03);
+    box-shadow: 6px 7px 9px rgba(18, 17, 17, 0.03);
     width: 100%;
     .border-color{
         border-color:#FFF9F6!important;
@@ -221,12 +221,12 @@ header{
 
 .background{
     width: 100%;
-    background: linear-gradient(270deg, #3D3D3C 0%, rgba(61, 61, 60, 0.2) 100%), url(../img/background.png);
+    background: linear-gradient(270deg, #3f3f3d 0%, rgba(61, 61, 60, 0.2) 100%), url(../img/background.png);
     height: 584px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(24, 24, 24, 0.6);
     color: $bianco;
     .card-text{
         font-family: 'Poppins';
@@ -324,7 +324,7 @@ header{
     background-color: $bianco;
     height: 192px;
     width: 180px;
-    box-shadow: 6px 7px 9px rgba(0, 0, 0, 0.03);
+    box-shadow: 6px 7px 9px rgba(10, 10, 10, 0.03);
     border-radius: 4px;
     p{    
         font-family: 'Poppins';
